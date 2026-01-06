@@ -6,11 +6,13 @@ import { AngularMaterialModule } from "../angular-material/angular-material.modu
 
 import { FilterComponent } from './filter/filter.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
+import { UsersListComponent } from './users-list/users-list.component';
 
 @NgModule({
   declarations: [
     UserDetailsComponent,
     FilterComponent,
+    UsersListComponent,
   ],
   imports: [
     AngularMaterialModule,
@@ -20,6 +22,7 @@ import { UserDetailsComponent } from './user-details/user-details.component';
   exports: [
     UserDetailsComponent,
     FilterComponent,
+    UsersListComponent,
   ],
 })
 export class ComponentsModule {

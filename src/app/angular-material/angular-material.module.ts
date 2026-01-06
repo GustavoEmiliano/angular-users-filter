@@ -1,7 +1,8 @@
 import { NgModule } from "@angular/core";
+import {MatTableModule} from '@angular/material/table';
 import { MatListModule } from '@angular/material/list';
 import { MatInputModule } from '@angular/material/input';
-import {MatSelectModule} from '@angular/material/select';
+import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from "@angular/material/button";
 import { MatNativeDateModule } from "@angular/material/core";
 import { MatDividerModule } from '@angular/material/divider';
@@ -19,6 +20,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     MatNativeDateModule,
     MatSelectModule,
     MatButtonModule,
+    MatTableModule,
 
   ],
   exports: [
@@ -30,6 +32,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     MatNativeDateModule,
     MatSelectModule,
     MatButtonModule,
+    MatTableModule,
   ],
 })
 export class AngularMaterialModule {
